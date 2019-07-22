@@ -1,0 +1,63 @@
+/* ここから下に記載していく */
+
+body {
+  width: 1366px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.navbar {
+  align-items: center;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.nav-right {
+  font-size: 24px;
+  font-style: initial;
+}
+
+.nav-right li {
+  float: left;
+  padding: 50px 25px;
+}
+
+.mainbanner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.mainbanner img {
+  width: 100%;
+  height: auto;
+}
+
+.main-text {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-text h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.main-text p {
+  font-size: 35px;
+  color: #ffffffd8;
+}
