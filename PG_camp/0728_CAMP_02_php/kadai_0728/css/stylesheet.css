@@ -1,0 +1,12 @@
+@charset "utf-8";
+body {
+    text-align: center;
+}
+
+.pchand {}
+
+.hand-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
