@@ -1,12 +1,12 @@
-#hide-text {
+.btn {
     display: inline-block;
     cursor: pointer;
-    padding: 12px 80px;
+    padding: 8px 30px;
     background-color: #5dca88;
-    box-shadow: 0px 50px #279C56;
-    border-radius: 30px;
+    box-shadow: 0px 5px #279C56;
+    border-radius: 3px;
     color: #fff;
-    font-size: 100px;
+    font-size: 10px;
 }
 
 .btn:active {
