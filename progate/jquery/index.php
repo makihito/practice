@@ -37,17 +37,16 @@
 </head>
 
 <body>
-    <div id="change-text" class="btn">文字列を変更</div>
+    <?php
+    echo 'hello';
+    ?>
 
-    <div id="change-html" class="btn">HTMLを変更</div>
 
-    <h1 id="text">hello,world</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- <script src="./js/jquery-3.4.1.min.js"></script> -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="./js/bootstrap.bundle.js"></script> -->
-    <script src="./js/test.js"></script>
+                <!-- Optional JavaScript -->
+                <!-- <script src="./js/jquery-3.4.1.min.js"></script> -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <!-- <script src="./js/bootstrap.bundle.js"></script> -->
+                <script src="./js/test.js"></script>
 
 </body>
 
