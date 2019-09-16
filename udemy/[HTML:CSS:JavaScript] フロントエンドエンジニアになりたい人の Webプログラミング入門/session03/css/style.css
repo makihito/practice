@@ -1,0 +1,32 @@
+@charset "utf-8";
+body {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3)
+}
+
+.header {
+    background-color: rgba(134, 50, 2, 0.89);
+    padding: 10px;
+    color: #f0f0f0;
+}
+
+.header h1 {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
