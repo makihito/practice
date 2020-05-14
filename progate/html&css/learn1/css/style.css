@@ -1,0 +1,33 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+    /*ベースを10pxにしています*/
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 4rem;
+    font-family: serif;
+    background-color: rgb(43, 226, 104);
+    height: 80px;
+    width: 800px;
+}
+
+p {
+    color: aqua;
+    font-size: 2rem;
+    font-family: "Lucida Grande";
+}
+
+img {
+    height: 50px;
+    width: 70px;
+}
+
+li {
+    color: #444444;
+}
+
+.selected {
+    color: #ff0000;
+}

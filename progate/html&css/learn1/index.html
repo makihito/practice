@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="ページの内容を表す文章">
+    <!-- OGPタグ/twitterカード -->
+    <!-- <meta property="og:url" content="ページのURL" />
+    <meta property="og:title" content="ページのタイトル" />
+    <meta property="og:type" content="ページのタイプ">
+    <meta property="og:description" content="記事の抜粋" />
+    <meta property="og:image" content="画像のURL" />
+    <meta name="twitter:card" content="カード種類" />
+    <meta name="twitter:site" content="@Twitterユーザー名" />
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="appIDを入力" /> -->
+
+    <!-- サイトアイコンの指定 -->
+    <!-- <link rel="icon" href="画像URL" sizes="16x16" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="32x32" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="48x48" type="image/png" />
+    <link rel="icon" href="画像URL" sizes="62x62" type="image/png" /> -->
+
+    <!-- googleFontsのフォントを使うためのリンク cssでfontFamilyを記述する-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="css/reset.css" rel="stylesheet">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 見出し：<h1>要素以外にも、<h2>, <h3>, ..., <h6>要素があります。<h6>が一番小さな見出しになります。 -->
+    <h1>プログラミングの世界へようこそ</h1>
+    <h1>創れる人になろう</h1>
+
+    <!-- 段落を表すのは<p>要素です。
+        pはparagraph（段落）の略です。
+    <h2>要素や<p>要素で囲んだテキストは改行されます。 -->
+    <h2>Progateとは</h2>
+    <p>オンラインのプログラミング学習サービスです</p>
+    <p>Learn to Code, Learn to be Creative.</p>
+
+    <!-- リンクを作成するためには<a>要素を用います。
+        テキストを<a>タグで囲むことで、簡単にリンクを作ることができます。
+        <a href="url"> url部分にリンク先のURLを指定することで、そのページへのリンクを作ることができます。-->
+    <a href="https://prog-8.com">progateへ</a>
+    <a href="https://google.com">googleへ</a>
+    <a href="https://google.com" target="_blank" rel="noopener noreferrer">別タブで表示</a>
+
+    <!-- 画像の表示には<img>要素を用います。
+<img src="url">のように、src属性のurlの部分に画像のリンクを指定することで、画像が表示されます。
+<img>要素はテキストを囲むことがないため、終了タグが要りません。 -->
+    <div class="imaga">
+        <img src="https://prog-8.com/images/html/beginner/wanko.jpg" alt="">
+        <img src="https://prog-8.com/images/html/beginner/school.jpg" alt="">
+    </div>
+
+    <!-- リストを作るには、<li>要素を用います。
+箇条書きにしたいテキストをそれぞれ<li>タグで囲むことで、リストを作ることができます。
+<ul>要素については次のスライドで説明します。 
+	<ul>要素で囲むと、黒点が先頭につきます。
+	<ol>要素で囲むと、数字が連番でつきます（ここでは扱いません）。
+	このように要素を要素で囲むことを入れ子と言います。
+	囲む方の要素を親要素、囲まれる要素を子要素と呼びます。-->
+    <div class="list-ul">
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>ruby</li>
+        </ul>
+    </div>
+    <ol class="ol-list">
+        <li class="selected">html</li>
+        <li>css</li>
+        <li>ruby</li>
+    </ol>
+
+
+    <!-- Optional JavaScript -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
