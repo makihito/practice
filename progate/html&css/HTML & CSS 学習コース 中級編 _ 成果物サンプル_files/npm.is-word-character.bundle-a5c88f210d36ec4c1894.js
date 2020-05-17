@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[46],{obXZ:function(module,exports,__webpack_require__){"use strict";module.exports=wordCharacter;var fromCode=String.fromCharCode;var re=/\w/;function wordCharacter(character){return re.test(typeof character==="number"?fromCode(character):character.charAt(0))}}}]);

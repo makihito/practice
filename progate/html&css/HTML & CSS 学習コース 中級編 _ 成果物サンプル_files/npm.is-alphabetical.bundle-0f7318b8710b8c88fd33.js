@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[20],{"1iAE":function(module,exports,__webpack_require__){"use strict";module.exports=alphabetical;function alphabetical(character){var code=typeof character==="string"?character.charCodeAt(0):character;return code>=97&&code<=122||code>=65&&code<=90}}}]);

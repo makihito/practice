@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[18],{cBNe:function(module,exports,__webpack_require__){"use strict";var visit=__webpack_require__("ZkSf");module.exports=removePosition;function removePosition(node,force){visit(node,force?hard:soft);return node}function hard(node){delete node.position}function soft(node){node.position=undefined}}}]);

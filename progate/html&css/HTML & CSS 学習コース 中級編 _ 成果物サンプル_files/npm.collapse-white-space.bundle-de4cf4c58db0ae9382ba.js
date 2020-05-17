@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[14],{JqBK:function(module,exports,__webpack_require__){"use strict";module.exports=collapse;function collapse(value){return String(value).replace(/\s+/g," ")}}}]);
