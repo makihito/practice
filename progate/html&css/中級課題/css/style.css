@@ -1,0 +1,205 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+    /*ベースを10pxにしています*/
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ここからヘッダー */
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+header {
+    height: 6.5rem;
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 1s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.login {
+    line-height: 65px;
+    padding: 0 25px;
+    display: inline-block;
+    color: white;
+    display: block;
+}
+
+
+/* ここからトップ */
+
+.top-wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    padding: 180px 0 100px;
+    text-align: center;
+    color: white;
+}
+
+.container h1 {
+    font-size: 4.5rem;
+    opacity: 0.7;
+    letter-spacing: 1rem;
+}
+
+.container p {
+    font-size: 2.5rem;
+    padding-top: 10px;
+    opacity: 0.7;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 1;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.singup {
+    background-color: chartreuse;
+}
+
+.facebook {
+    background-color: darkblue;
+    margin-right: 40px;
+}
+
+.twitter {
+    background-color: darkcyan;
+}
+
+.fab {
+    margin-right: 20px;
+}
+
+
+/* ここからレッスン */
+
+.lesson-wrapper {
+    height: 500px;
+    padding: 50px 0 50px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.lesson-title {
+    opacity: 0.7;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.lesson {
+    width: 25%;
+    float: left;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    color: aliceblue;
+}
+
+p.txt {
+    color: rgb(54, 54, 54);
+    display: inline-block;
+    width: 80%;
+    font-size: 0.5rem;
+}
+
+
+/* ここからメッセージ */
+
+.msg-wrapper {
+    text-align: center;
+    margin-top: 90px;
+    height: 200px;
+    border-bottom: 1px solid #6d6d6d;
+}
+
+.msg {
+    padding-bottom: 20px;
+}
+
+.msg h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.message {
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 255, 0.589);
+    box-shadow: 0 10px cornflowerblue;
+    cursor: pointer;
+}
+
+.message:active {
+    background-color: rgba(0, 0, 255);
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+}
+
+
+/* ここからフッター */
+
+footer {
+    padding-top: 30px;
+}
+
+footer img {
+    width: 300px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 1.2rem;
+}
