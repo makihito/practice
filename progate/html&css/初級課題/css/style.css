@@ -1,0 +1,133 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+    /*ベースを10pxにしています*/
+}
+
+body {
+    font-family: "Avenir Next";
+}
+
+
+/* ここからヘッダー */
+
+main {
+    padding: 100px 80px;
+}
+
+header {
+    height: 90px;
+    background-color: #26d0c9;
+    color: white;
+    /* height: 100%; */
+    display: flex;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logo {
+    font-size: 3.6rem;
+    padding: 40px;
+    float: left;
+}
+
+.header-list {
+    /* padding: 33px 20px; */
+}
+
+.header-list li {
+    float: left;
+    padding: 20px;
+}
+
+
+/* ここからメイン */
+
+.copy-container {}
+
+.copy-container h1 {
+    font-size: 14rem;
+}
+
+h1 span {
+    color: rgb(250, 37, 0);
+}
+
+.copy-container h2 {
+    font-size: 6rem;
+}
+
+
+/* ここからcontents */
+
+.contents {
+    margin: 100px 0;
+    height: 500px;
+}
+
+.contents h3,
+.section-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #554d4d;
+}
+
+.contents-item {
+    display: flex;
+}
+
+.item {
+    margin: 50px 40px 0px 0px;
+    font-size: 24px;
+}
+
+.item p {
+    margin-top: 30px;
+}
+
+
+/* ここから問い合わせ */
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 18px;
+    border: 3px solid #26d0c9;
+}
+
+.contact-submit {
+    background-color: #26d0c9;
+    color: aliceblue;
+    font-size: 28px;
+}
+
+
+/* ここからフッター */
+
+.footer {
+    background-color: #2f5167;
+    height: 120px;
+    padding: 40px;
+    color: aliceblue;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 5.2rem;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}

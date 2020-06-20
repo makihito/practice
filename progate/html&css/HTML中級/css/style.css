@@ -19,6 +19,10 @@ a {
 header {
     height: 6.5rem;
     background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
 }
 
 .header-left {
@@ -162,7 +166,7 @@ header {
 /* ここからメッセージ */
 
 .message-wrapper {
-    border-bottom: 1px solid #3b5998;
+    border-bottom: 1px solid #5f5d60;
     padding-bottom: 80px;
     text-align: center;
 }
@@ -185,4 +189,22 @@ header {
     top: 8px;
 }
 
+<<<<<<< HEAD
 w
+=======
+
+/* ここからフッター */
+
+footer {
+    padding-top: 30px;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 1.2rem;
+}
+>>>>>>> 000419a5e11f86b8482a91df16eb924c35d434dd

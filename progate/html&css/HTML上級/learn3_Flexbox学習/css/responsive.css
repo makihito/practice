@@ -1,0 +1,17 @@
+@media(max-width:2000px) {
+    .flex-list {
+        flex-wrap: wrap;
+    }
+    .flex-list li {
+        width: 50%;
+    }
+}
+
+@media(max-width:1270px) {
+    .flex-list {
+        flex-direction: column;
+    }
+    .flex-list li {
+        margin: 0 auto;
+    }
+}
