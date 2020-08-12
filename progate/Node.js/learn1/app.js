@@ -1,44 +1,53 @@
 const express = require('express');
-const mysql = require('mysql');
 const app = express();
+const mysql = require('mysql');
+const { error } = require('console');
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'progate',
-    password: 'password',
-    database: 'list_app'
+  host: 'localhost',
+  user: 'root',
+  password: 'akihito',
+  database: 'items'
 });
 
 app.get('/', (req, res) => {
-    res.render('top.ejs');
-});
+  res.render('top.ejs');
+})
 
 app.get('/index', (req, res) => {
-    connection.query(
-        'SELECT * FROM items',
-        (error, results) => {
-            res.render('index.ejs', { items: results });
-        }
-    );
+  connection.query(
+    'select * from items',
+    (error, results) => {
+      console.log(results);
+      res.render('index.ejs', { items: results });
+    }
+  );
 });
 
 app.get('/new', (req, res) => {
-    res.render('new.ejs');
+  res.render('new.ejs');
 });
 
 app.post('/create', (req, res) => {
-    connection.query(
-        'INSERT INTO items (name) VALUES (?)', [req.body.itemName],
+  connection.query(
+    'insert into items(name) value(?)', [req.body.itemName],
+    (error, results) => {
+      connection.query(
+        'select * from items',
         (error, results) => {
-            res.redirect('/index');
+          res.render('index.ejs', { items: results });
         }
-    );
+      );
+    }
+  );
 });
 
-// メモを削除するルーティングを作成してください
 
 
+
+
+// サーバーを起動するコードを貼り付けてください
 app.listen(3000);
