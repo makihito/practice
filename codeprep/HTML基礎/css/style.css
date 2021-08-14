@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+  background: rgb(214, 193, 101)
+}
+
+div {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  width: 200px;
+  animation: mover linear 1s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    background-color: antiquewhite;
+    border-radius: 30px;
+  }
+  100% {
+    background-color: aqua;
+    border-radius: 60px;
+  }
+}
+
+p {
+  margin: 0;
+  font-size: 75px;
+}
+
+#title {
+  color: rgb(192, 38, 38);
+  font-size: 42px;
+  font-family: Arial, Helvetica, ;
+  text-align: center;
+  font-weight: 100;
+  text-decoration: underline;
+  background-color: antiquewhite;
+}
+
+.text {
+  color: rgb(91, 175, 175);
+  border: 3px dotted rgb(5, 79, 190);
+  text-align: center;
+  border-radius: 12px;
+}
