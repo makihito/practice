@@ -1,33 +1,102 @@
-@charset "utf-8";
-html {
-    font-size: 62.5%;
-    /*ベースを10pxにしています*/
+/* CSSのリセット（消さないでください） */
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-    color: #ff0000;
-    font-size: 4rem;
-    font-family: serif;
-    background-color: rgb(43, 226, 104);
-    height: 80px;
-    width: 800px;
-}
-
-p {
-    color: aqua;
-    font-size: 2rem;
-    font-family: "Lucida Grande";
-}
-
-img {
-    height: 50px;
-    width: 70px;
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
 li {
-    color: #444444;
+  list-style: none;
 }
 
-.selected {
-    color: #ff0000;
+
+/* ここからCSSを記述してください */
+
+.header {
+  height: 90px;
+  background-color: #26d0c9;
+  color: #fff;
+}
+
+.nav {
+  font-size: 36px;
+  float: left;
+  padding: 20px 40px;
+}
+
+.header-list {}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  margin: 100px 80px;
+}
+
+span {
+  color: red;
+}
+
+.contents {
+  height: 500px;
+  margin: 0 80px;
+}
+
+h1 {
+  font-size: 140px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.contents {
+  margin-bottom: 100px;
+}
+
+.content-list {
+  margin: 0px 0 100px;
+  font-size: 24px;
+}
+
+.content-list li {
+  float: left;
+  margin: 50px 40px 0px;
+  margin-left: 0;
+}
+
+img {
+  padding-bottom: 30px;
+}
+
+.title {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
 }
